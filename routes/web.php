@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('/bijenstal', function () {
     return view('bijenstal');
 });
+Route::get('/lid-worden', function () {
+    return view('lidworden');
+});
