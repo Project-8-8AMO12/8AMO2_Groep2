@@ -20,3 +20,6 @@ Route::get('/bijenstal', function () {
 Route::get('/lid-worden', function () {
     return view('lidworden');
 });
+Route::get('/winkel', function () {
+    return view('winkel');
+});
