@@ -23,3 +23,7 @@ Route::get('/lid-worden', function () {
 Route::get('/winkel', function () {
     return view('winkel');
 });
+Route::get('/cursussen', function () {
+    return view('cursussen');
+});
+
