@@ -23,3 +23,6 @@ Route::get('/lid-worden', function () {
 Route::get('/activiteiten', function () {
     return view('activiteiten');
 });
+Route::get('/winkel', function () {
+    return view('winkel');
+});
