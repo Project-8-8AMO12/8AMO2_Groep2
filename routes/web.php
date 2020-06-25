@@ -26,3 +26,8 @@ Route::get('/activiteiten', function () {
 Route::get('/winkel', function () {
     return view('winkel');
 });
+Route::get('/zwermgezien', function () {
+    return view('zwermgezien');
+});
+
+
