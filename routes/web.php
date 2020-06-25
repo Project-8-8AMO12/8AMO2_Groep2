@@ -20,10 +20,15 @@ Route::get('/bijenstal', function () {
 Route::get('/lid-worden', function () {
     return view('lidworden');
 });
+Route::get('/activiteiten', function () {
+    return view('activiteiten');
+});
 Route::get('/winkel', function () {
     return view('winkel');
 });
 Route::get('/cursussen', function () {
     return view('cursussen');
 });
-
+Route::get('/zwermgezien', function () {
+    return view('zwermgezien');
+});
