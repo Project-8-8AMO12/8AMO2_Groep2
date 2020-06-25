@@ -18,7 +18,7 @@
   <div class="column is-half">
     <p>De Imkersvereniging Leiden en omstreken heeft een winkel, voorheen een depot van het Bijenhuis (NBV). In deze winkel zijn de meest voorkomende imkersartikelen te koop, onder andere: imker gereedschappen, kasten (ceder en vuren) en kastonderdelen (Dadant en Spaarkast), Varoa bestrijding, kleding en handschoenen, koninginnenteelt benodigdheden. In de winkel kan alleen met PIN betaald worden, contant of per overschrijving worden niet geaccepteerd. De prijzen die de vereniging hanteert zijn inclusief een transport toeslag van 3%. In het geval dat u een grote bestelling wilt plaatsen, of in het geval dat u een specifiek product wilt aanschaffen, kunt u de depotbeheerder of de penningmeester van de vereniging contacten. In de inwinter periode (Augustus-Oktober) biedt onze winkel suikeroplossing aan. Omdat onze verenging begaan is met het wel en wee van de bijen is er (ook) biologisch geproduceerd suikeroplossing beschikbaar. Deze oplossing is duurder maar het gebruik ervan wordt door ons aangeraden. De aankoop van biologisch suikeroplossing gaat op bestelling dat wordt aangekondigd in de nieuwsbrief.</p>
     </br>
-    <div class="image">
+    <div class="image px-3">
     <img   src="{{ url('/img/bijstuifmeel.jpg') }}"/>
     </div>
     <p>De Leidse Imkersvereniging faciliteert voor haar leden het recyclen van eigen was. Hiervoor zijn stoom was-smelters (2x) en wasplaat persen (2x) te leen. Deze apparatuur kan worden opgehaald tijdens openingstijden van de winkel. Registratie is verplicht. In sommige gevallen zal er moeten worden gereserveerd in overleg met de depotbeheerder. De siliconen matten van de pers zijn kwetsbaar (!) en worden bij uitgifte en bij inname gecontroleerd op beschadigingen.</p>
