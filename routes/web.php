@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 Route::get('/bijenstal', function () {
     return view('bijenstal');
@@ -23,3 +23,7 @@ Route::get('/lid-worden', function () {
 Route::get('/winkel', function () {
     return view('winkel');
 });
+Route::get('/test', function () {
+    return view('welcome');
+});
+
