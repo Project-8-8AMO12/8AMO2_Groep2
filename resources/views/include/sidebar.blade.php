@@ -3,7 +3,7 @@
             <ul class="menu-list">
                 <li><a class="has-text-centered">Activiteiten</a></li>
                 <li><a class="has-text-centered" href="{{ url('/cursussen') }}">Cursussen</a></li>
-                <li><a class="has-text-centered">De Vereniging</a></li>
+                <li><a class="has-text-centered"  href="{{ url('/vereniging') }}" >De Vereniging</a></li>
                 <li><a class="has-text-centered" href="{{ url('/zwermgezien') }}">Zwerm gezien?</a></li>
                 <li><a class="has-text-centered" href="{{ url('/lid-worden') }}">Lid Worden</a></li>
                 <li><a class="has-text-centered">Nieuws</a></li>
