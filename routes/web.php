@@ -32,3 +32,10 @@ Route::get('/cursussen', function () {
 Route::get('/zwermgezien', function () {
     return view('zwermgezien');
 });
+
+
+
+
+Route::get('/foto', function () {
+    return view('foto');
+});
