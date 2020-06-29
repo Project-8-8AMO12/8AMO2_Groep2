@@ -35,4 +35,6 @@ Route::get('/zwermgezien', function () {
 Route::get('/vereniging', function () {
     return view('vereniging');
 });
-
+Route::get('/foto', function () {
+    return view('foto');
+});

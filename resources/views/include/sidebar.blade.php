@@ -10,7 +10,7 @@
                 <li><a class="has-text-centered">Agenda</a></li>
                 <li><a class="has-text-centered" href="{{ url('/bijenstal') }}">De Bijenstal</a></li>
                 <li><a class="has-text-centered" href="{{ url('/winkel') }}">De Winkel</a></li>
-                <li><a class="has-text-centered">Foto's en Video's</a></li>
+                <li><a class="has-text-centered" href="{{ url('/foto') }}">Foto's en Video's</a></li>
                 <li><a class="has-text-centered">Contact</a></li>
             </ul>
         </div>
