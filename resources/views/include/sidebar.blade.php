@@ -1,7 +1,7 @@
     <div class="column is-2 bg-white border-right">
         <div class="menu">
             <ul class="menu-list">
-                <li><a class="has-text-centered">Activiteiten</a></li>
+                <li><a class="has-text-centered" href="{{ url('/activiteiten') }}">Activiteiten</a></li>
                 <li><a class="has-text-centered" href="{{ url('/cursussen') }}">Cursussen</a></li>
                 <li><a class="has-text-centered"  href="{{ url('/vereniging') }}" >De Vereniging</a></li>
                 <li><a class="has-text-centered" href="{{ url('/zwermgezien') }}">Zwerm gezien?</a></li>
