@@ -32,10 +32,9 @@ Route::get('/cursussen', function () {
 Route::get('/zwermgezien', function () {
     return view('zwermgezien');
 });
-
-
-
-
+Route::get('/vereniging', function () {
+    return view('vereniging');
+});
 Route::get('/foto', function () {
     return view('foto');
 });
