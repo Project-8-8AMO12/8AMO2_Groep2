@@ -25,10 +25,10 @@
 
 <div class="columns box is-centered is-fullwidth ">
   <div class="column is-half">
-  <p class='has-background-grey-lighter px-4 py-'>De contributie voor leden bedraagt voor 2020 € 77,50 per jaar.
+  <p class='px-4 py-'>De contributie voor leden bedraagt voor 2020 € 77,50 per jaar.
 Leden van de imkersvereniging Leiden en omstreken zijn tevens lid van de NBV. De bijenvolken van de leden zijn verzekerd. Leden ontvangen het maandblad ‘Bijen’ en ‘De Stertselaar’.
 De donatie voor belangstellenden bedraagt ten minste € 15,- per jaar.
-Donateurs ontvangen ‘De Stertselaar’..</p>
+Donateurs ontvangen ‘De Stertselaar’.</p>
 </br>
 <div class = "container has-background-grey-lighter">
 <img class='imgAc' src="{{ url('/img/bijenkasten.jpg') }}"/>
