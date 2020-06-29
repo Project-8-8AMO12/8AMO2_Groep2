@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title', "Bijenstal")
+@section('title', "Foto en video")
 
 @section('style')
     <style>
@@ -13,10 +13,6 @@
   position: relative;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
@@ -103,43 +99,34 @@
 
   <!-- Full-width images with number text -->
   <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-      <img src="{{ url('/img/bijenstal.png') }}" style="width:100% height:50%;">
+      <img  src="{{ url('/img/bijenstal.png') }}" style="width:50%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-      <img src="{{ url('/img/bijstuifmeel.jpg') }}" style="width:100% height:50%">
+      <img src="{{ url('/img/bijstuifmeel.jpg') }}" style="width:50%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-      <img src="{{ url('/img/honing-is-lekker.jpg') }}" style="width:100% height:50%">
+      <img src="{{ url('/img/honing-is-lekker.jpg') }}" style="width:50%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-      <img src="{{ url('/img/bijenkasten.jpg') }}" style="width:100% height:50%">
+      <img src="{{ url('/img/bijenkasten.jpg') }}" style="width:50%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-      <img src="{{ url('/img/voorbeeld-nieuws.jpg') }}" style="width:100% height:50%">
+      <img src="{{ url('/img/voorbeeld-nieuws.jpg') }}" style="width:50%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-      <img src="{{ url('/img/Polderpark-Cronesteyn.jpg') }}" style="width:100% height:50%">
+      <img src="{{ url('/img/Polderpark-Cronesteyn.jpg') }}" style="width:50%">
   </div>
 
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-  <!-- Image text -->
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
+ 
 
   <!-- Thumbnail images -->
   <div class="row">
