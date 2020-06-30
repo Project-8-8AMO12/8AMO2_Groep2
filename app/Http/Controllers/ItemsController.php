@@ -9,8 +9,8 @@ class ItemsController extends Controller
 {
     public static function show() 
     {
-        $test = Items::all();
-        return $test;
+        $items = Items::all();
+        return $items;
     }
 
     public static function create(Request $request) 
