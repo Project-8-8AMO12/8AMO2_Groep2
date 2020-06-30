@@ -44,6 +44,8 @@ class ItemsController extends Controller
 
     public static function delete($id, Request $request)
     {
-        
+        $items = Items::find($id);
+        return ['Deleted selected items', $items];
+        $items->delete();
     }
 }
