@@ -41,3 +41,8 @@ Route::get('/vereniging', function () {
 Route::get('/foto', function () {
     return view('foto');
 });
+
+Route::get('/items', 'ItemsController@show');
+Route::post('/items', 'ItemsController@create');
+Route::put('/items/{id}', 'ItemsController@update');
+Route::delete('/items/{id}', 'ItemsController@delete');
