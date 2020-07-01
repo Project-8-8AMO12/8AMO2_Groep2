@@ -32,10 +32,10 @@ Route::get('/cursussen', function () {
 Route::get('/zwermgezien', function () {
     return view('zwermgezien');
 });
-Route::get('/login', 'usercontroller@index');
-Route::post('/login/checklogin', 'usercontroller@checklogin');
-Route::get('login/succeslogin', 'usercontroller@succeslogin');
-Route::get('login/logout', 'usercontroller@logout');
+Route::get('/login', 'UserController@index');
+Route::post('/login/checklogin', 'UserController@checklogin');
+Route::get('login/succeslogin', 'UserController@succeslogin');
+Route::get('login/logout', 'UserController@logout');
 
 Route::view('/register', 'register');
-Route::post('/register/store', 'usercontroller@store');
+Route::post('/register/store', 'UserController@store');
