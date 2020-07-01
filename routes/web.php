@@ -11,6 +11,7 @@
 |
 */
 
+// Main Routes
 Route::get('/', function () {
     return view('index');
 });
@@ -42,6 +43,16 @@ Route::get('/foto', function () {
     return view('foto');
 });
 
+// Login Routes
+Route::get('/login', 'UserController@index');
+Route::post('/login/checklogin', 'UserController@checklogin');
+Route::get('login/succeslogin', 'UserController@succeslogin');
+Route::get('login/logout', 'UserController@logout');
+
+Route::view('/register', 'register');
+Route::post('/register/store', 'UserController@store');
+
+// CRUD Routes
 Route::get('/items', 'ItemsController@show');
 Route::post('/items', 'ItemsController@create');
 Route::put('/items/{id}', 'ItemsController@update');
