@@ -37,9 +37,9 @@
     </div>
 </section>
 
-<section>
+<section class="has-background-light pt-1 mt-6">
     <div class="container">
-        <h1 class="title has-text-centered my-6">Bezigheden</h1>
+        <h1 class="title has-text-centered my-4">Bezigheden</h1>
     </div>
     <div class="columns is-centered">
 
@@ -47,27 +47,87 @@
             <div class="tile is-ancestor ">
                 <div class="tile is-vertical is-parent">
                     <div class="tile is-child box">
+                        <h1 class="title">Babies</h1>
                         <p>test</p>
                     </div>
                     <div class="tile is-child box">
+                        <h1 class="title">Babies</h1>
                         <p>test</p>
                     </div>
                 </div>
                 <div class="tile is-vertical is-parent">
                     <div class="tile is-child box">
+                        <h1 class="title">Babies</h1>
                         <p>test</p>
                     </div>
                     <div class="tile is-child box">
+                        <h1 class="title">Babies</h1>
                         <p>test</p>
                     </div>
                 </div>
                 <div class="tile is-vertical is-parent">
                     <div class="tile is-child box">
+                        <h1 class="title">Babies</h1>
                         <p>test</p>
                     </div>
                     <div class="tile is-child box">
+                        <h1 class="title">Babies</h1>
                         <p>test</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="my-6">
+    <div class="container mb-5">
+        <h1 class="title has-text-centered">De Laatste Nieuwtjes!</h1>
+        <h2 class="subtitle has-text-centered">Blijf op de hoogte</h2>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <h1 class="title">Title</h1>
+                    <h2 class="subtitle">Subtitle</h2>
+                    <p>Content</p>
+                    <p>babies</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <h1 class="title">Title</h1>
+                    <h2 class="subtitle">Subtitle</h2>
+                    <p>Content</p>
+                    <p>babies</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <h1 class="title">Title</h1>
+                    <h2 class="subtitle">Subtitle</h2>
+                    <p>Content</p>
+                    <p>babies</p>
                 </div>
             </div>
         </div>
