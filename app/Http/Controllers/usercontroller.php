@@ -10,7 +10,7 @@ use Validator;
 use Auth;
 
 
-class Maincontroller extends Controller
+class usercontroller extends Controller
 {
     function index(){
         return view('login');
