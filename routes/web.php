@@ -32,3 +32,10 @@ Route::get('/cursussen', function () {
 Route::get('/zwermgezien', function () {
     return view('zwermgezien');
 });
+Route::get('/login', 'Maincontroller@index');
+Route::post('/login/checklogin', 'Maincontroller@checklogin');
+Route::get('login/succeslogin', 'Maincontroller@succeslogin');
+Route::get('login/logout', 'Maincontroller@logout');
+
+Route::view('/register', 'register');
+Route::post('/register/store', 'Maincontroller@store');
