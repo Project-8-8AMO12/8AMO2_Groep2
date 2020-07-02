@@ -54,6 +54,7 @@ Route::post('/register/store', 'UserController@store');
 
 // CRUD Routes
 Route::get('/items', 'ItemsController@show');
+Route::get('/items/{id}', 'ItemsController@showItemById');
 Route::post('/items', 'ItemsController@create');
 Route::put('/items/{id}', 'ItemsController@update');
 Route::delete('/items/{id}', 'ItemsController@delete');
