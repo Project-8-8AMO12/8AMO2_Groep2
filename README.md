@@ -42,6 +42,7 @@ Als laatste voer je de volgende commando's uit.
 ```
 cp .env.example .env
 php artisan key:generate
+php artisan migrate
 ```
 
 ## Applicatie uitvoeren
