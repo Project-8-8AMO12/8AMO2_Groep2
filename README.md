@@ -59,7 +59,3 @@ Om de applicatie te kunnen bekijken voer je `php artisan serve` uit.
 * **Matthijs Verboon** - [matthijsverboon](https://github.com/matthijsverboon)
 * **Job van Dijk** - [DijkVanJob](https://github.com/DijkVanJob)
 
-## Voetnootstuk
-
-* Hoi
-
