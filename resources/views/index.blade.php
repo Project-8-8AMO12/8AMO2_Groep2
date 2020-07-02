@@ -37,42 +37,42 @@
     </div>
 </section>
 
-<section class="has-background-light pt-1 mt-6">
+<section class="pt-1 mt-6">
     <div class="container">
         <h1 class="title has-text-centered my-4">Bezigheden</h1>
     </div>
     <div class="columns is-centered">
 
-        <div class="column is-half ">
+        <div class="column">
             <div class="tile is-ancestor ">
                 <div class="tile is-vertical is-parent">
                     <div class="tile is-child box">
-                        <h1 class="title">Babies</h1>
-                        <p>test</p>
+                        <h1 class="title">Bij-eenkomsten</h1>
+                        <p>Het regelmatig organiseren van bijeenkomsten met lezingen, films, diavertoningen, praatavonden, en van excursies.</p>
                     </div>
                     <div class="tile is-child box">
-                        <h1 class="title">Babies</h1>
-                        <p>test</p>
-                    </div>
-                </div>
-                <div class="tile is-vertical is-parent">
-                    <div class="tile is-child box">
-                        <h1 class="title">Babies</h1>
-                        <p>test</p>
-                    </div>
-                    <div class="tile is-child box">
-                        <h1 class="title">Babies</h1>
-                        <p>test</p>
+                        <h1 class="title">Imkersartikelen</h1>
+                        <p>Imkers binnen en buiten de Leidse regio kunnen voor de meest voorkomende imkersartikelen terecht bij de winkel van de vereniging, gelegen op het terrein van de tuinvereniging ‘Cronesteyn’.</p>
                     </div>
                 </div>
                 <div class="tile is-vertical is-parent">
                     <div class="tile is-child box">
-                        <h1 class="title">Babies</h1>
-                        <p>test</p>
+                        <h1 class="title">Beginnend imker begeleiding</h1>
+                        <p>Beginnend imkers worden door ervaren leden met raad en daad terzijde gestaan bij het verzorgen van het eerste bijenvolk.</p>
                     </div>
                     <div class="tile is-child box">
-                        <h1 class="title">Babies</h1>
-                        <p>test</p>
+                        <h1 class="title">Standplaats</h1>
+                        <p>Aan leden wordt zoveel mogelijk hulp geboden bij het verkrijgen van een standplaats voor hun bijenvolk(en) en bij de aankoop van imkersartikelen.</p>
+                    </div>
+                </div>
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <h1 class="title">Nieuwsbrief</h1>
+                        <p>Periodiek verschijnt de nieuwsbrief ‘De Stertselaar’, samengesteld door leden en bestemd voor imkers in Leiden en omgeving.</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <h1 class="title">Bijen Bibliotheek</h1>
+                        <p>Een eigen bibliotheek, waaruit leden boeken en tijdschriften uit binnen- en buitenland kunnen lenen. Regelmatig worden nieuwe titels aangeschaft.</p>
                     </div>
                 </div>
             </div>
@@ -90,14 +90,13 @@
             <div class="card">
                 <div class="card-image">
                     <figure class="image">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                        <img src="{{ url('./img/Polderpark-Cronesteyn.jpg') }}">
                     </figure>
                 </div>
                 <div class="card-content">
-                    <h1 class="title">Title</h1>
-                    <h2 class="subtitle">Subtitle</h2>
-                    <p>Content</p>
-                    <p>babies</p>
+                    <h1 class="title">De nieuwe bijenstal</h1>
+                    <h2 class="subtitle">feb 7, 2020</h2>
+                    <p>De gemeente gaat Park Cronesteyn herinrichten en een uitgebreid beheerplan is door de gemeenteraad in april 2019 goedgekeurd.</p>
                 </div>
             </div>
         </div>
@@ -105,14 +104,13 @@
             <div class="card">
                 <div class="card-image">
                     <figure class="image">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                        <img src="{{ url('./img/Polderpark-Cronesteyn.jpg') }}">
                     </figure>
                 </div>
                 <div class="card-content">
-                    <h1 class="title">Title</h1>
-                    <h2 class="subtitle">Subtitle</h2>
-                    <p>Content</p>
-                    <p>babies</p>
+                    <h1 class="title">De nieuwe bijenstal</h1>
+                    <h2 class="subtitle">feb 7, 2020</h2>
+                    <p>De gemeente gaat Park Cronesteyn herinrichten en een uitgebreid beheerplan is door de gemeenteraad in april 2019 goedgekeurd.</p>
                 </div>
             </div>
         </div>
@@ -120,14 +118,13 @@
             <div class="card">
                 <div class="card-image">
                     <figure class="image">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                        <img src="{{ url('./img/Polderpark-Cronesteyn.jpg') }}">
                     </figure>
                 </div>
                 <div class="card-content">
-                    <h1 class="title">Title</h1>
-                    <h2 class="subtitle">Subtitle</h2>
-                    <p>Content</p>
-                    <p>babies</p>
+                    <h1 class="title">De nieuwe bijenstal</h1>
+                    <h2 class="subtitle">feb 7, 2020</h2>
+                    <p>De gemeente gaat Park Cronesteyn herinrichten en een uitgebreid beheerplan is door de gemeenteraad in april 2019 goedgekeurd.</p>
                 </div>
             </div>
         </div>
