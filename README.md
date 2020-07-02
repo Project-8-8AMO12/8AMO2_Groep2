@@ -1,88 +1,65 @@
-# Project Title
+# Project ImkersLeiden
 
-One Paragraph of project description goes here
+Dit de Laravel webapplicatie van Imkersleiden, gemaakt door Matthijs Harren, Matthijs Verboon en Job van Dijk.
 
-## Getting Started
+## Om te Beginnen
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Dit zijn de instructies om een development kopie van de app te installeren
 
-### Prerequisites
+### Vereisten
 
-What things you need to install the software and how to install them
+Vereiste software om aan de Applicatie te kunnen werken.
 
-```
-Give examples
-```
+* Composer (https://getcomposer.org/) - Omdat de applicatie Laravel gebruikt.
+* NPM (https://www.npmjs.com/) - Om Node Mudules te kunnen downloaden en gebruiken.
+* Beschikbaarheid tot de PHP commando in je CMD/BASH/CLI. 
+* Een PHP IDE - Spreekt voorzich :)
 
-### Installing
+### Installatie
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Om te beginnen pull je deze repo. Dat kan met een CLI of GUI git Client, wat je zelf fijn vind
 
 ```
-until finished
+git clone https://github.com/Project-8-8AMO12/8AMO2_Groep2.git
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Daarna voer je in de in de root van de Applicatie de volgende commando's uit:
 
 ```
-Give an example
+composer install
+
+npm install
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+Nadat ja daarmee klaar bent moeten de Assets op de goede plaats worden neergezet. Dat doe je met de volgende commando:
 
 ```
-Give an example
+npm run dev
 ```
 
-## Deployment
+Als laatste voer je de volgende commando's uit.
 
-Add additional notes about how to deploy this on a live system
+```
+cp .env.example .env
+php artisan key:generate
+```
 
-## Built With
+## Applicatie uitvoeren
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Om de applicatie te kunnen bekijken voer je `php artisan serve` uit.
 
-## Contributing
+## Gemaakt met
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [Bulma](https://bulma.io/documentation/) - De HTML/CSS framework die we hebben gebruikt
+* [Laravel](https://laravel.com/) - De PHP framework die we hebben gebruikt.
 
-## Versioning
+## Auteuren
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* **Matthijs Harren** - [matthijsHarren](https://github.com/matthijsHarren)
+* **Matthijs Verboon** - [matthijsverboon](https://github.com/matthijsverboon)
+* **Job van Dijk** - [DijkVanJob](https://github.com/DijkVanJob)
 
-## Authors
+## Voetnootstuk
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Hoi
 
