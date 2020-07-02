@@ -53,7 +53,7 @@ Om de applicatie te kunnen bekijken voer je `php artisan serve` uit.
 * [Bulma](https://bulma.io/documentation/) - De HTML/CSS framework die we hebben gebruikt
 * [Laravel](https://laravel.com/) - De PHP framework die we hebben gebruikt.
 
-## Auteuren
+## Auteurs
 
 * **Matthijs Harren** - [matthijsHarren](https://github.com/matthijsHarren)
 * **Matthijs Verboon** - [matthijsverboon](https://github.com/matthijsverboon)
