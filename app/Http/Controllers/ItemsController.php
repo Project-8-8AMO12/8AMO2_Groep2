@@ -12,9 +12,25 @@ class ItemsController extends Controller
         $items = Items::all();
         return $items;
     }
+    public static function showItemById($id) 
+    {
+        $items = Items::find($id);
+        return $items;
+    }
 
     public static function create(Request $request) 
     {
+        $validatedData = $request->validate([
+            'title' => 'required',
+            'subtitle' => 'required',
+            'text' => 'required',
+            'pageurl' => 'required',
+            'itemauthor' => 'required',
+            'hidden' => 'required|integer',
+        ]);
+
+        
+
         $items = new Items;
             $items->title = $request->title;
             $items->subtitle = $request->subtitle;
@@ -22,6 +38,8 @@ class ItemsController extends Controller
             $items->imageurl = $request->imageurl;
             $items->pageurl = $request->pageurl;
             $items->itemauthor = $request->itemauthor;
+            $num = $request->hidden;
+            $hidden = (int)$num;
             $items->hidden = $request->hidden;
             $items->save();
         return $items;
@@ -29,6 +47,15 @@ class ItemsController extends Controller
 
     public static function update($id ,Request $request) 
     {   
+        $validatedData = $request->validate([
+            'title' => 'required',
+            'subtitle' => 'required',
+            'text' => 'required',
+            'pageurl' => 'required',
+            'itemauthor' => 'required',
+            'hidden' => 'required|integer',
+        ]);
+        
         $items = Items::find($id);
             $items->title = $request->title;
             $items->subtitle = $request->subtitle;
@@ -45,7 +72,7 @@ class ItemsController extends Controller
     public static function delete($id, Request $request)
     {
         $items = Items::find($id);
-        return ['Deleted selected items', $items];
         $items->delete();
+        return ['Deleted selected items', $items];
     }
 }
