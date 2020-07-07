@@ -1,3 +1,6 @@
+<?php
+use \App\Http\Controllers\ItemsController;
+?>
 @extends('app')
 
 @section('title', "Zwerm gezien")
@@ -10,7 +13,9 @@
 
 @section('content')
 
-<div class="columns box is-centered is-fullwidth ">
+<?php echo ItemsController::showItemById(4)->text; ?>
+
+<!-- <div class="columns box is-centered is-fullwidth ">
   <div class="column is-half">
     <h1 class='title'>Bijenzwerm opruimen</h1>
     <p>Heeft u een bijenzwerm? Geen paniek. Een zwerm is niet gevaarlijk. Blijf rustig en houd afstand. Neem contact met ons op. Een imker komt graag langs om de zwerm op te halen. Om onnodige meldingen te voorkomen, lees s.v.p. onderstaande informatie door voor u de melding doet. Mocht u zeker weten dat u een bijenzwerm hebt, onderaan staan de contactgegevens voor het melden van een zwerm.</p>
@@ -42,7 +47,7 @@ Zoek op het internet eventueel een plaatje van een honingbij en hommels (er zijn
 Zoek op het internet eventueel een plaatje van een honingbij en wespen.
 </p>
   </div>
-</div>
+</div> -->
 
 
 @endsection

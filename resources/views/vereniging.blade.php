@@ -1,3 +1,6 @@
+<?php
+use \App\Http\Controllers\ItemsController;
+?>
 @extends('app')
 
 @section('title', "Vereniging")
@@ -23,7 +26,18 @@
 
 @section('content')
 
-<div class="columns box is-centered is-fullwidth ">
+<?php echo ItemsController::showItemById(2)->text; ?>
+<!-- <img class='imgAc' src="{!! url('img/bijenkasten.jpg') !!}"/> -->
+
+@endsection
+
+@section('scripts')
+    <script>
+
+    </script>
+@endsection
+
+<!-- <div class="columns box is-centered is-fullwidth ">
   <div class="column is-half">
   <p class='px-4 py-'>De contributie voor leden bedraagt voor 2020 € 77,50 per jaar.
 Leden van de imkersvereniging Leiden en omstreken zijn tevens lid van de NBV. De bijenvolken van de leden zijn verzekerd. Leden ontvangen het maandblad ‘Bijen’ en ‘De Stertselaar’.
@@ -55,13 +69,4 @@ Zoekt u een plaats voor uw bijenvolken of weet u een plek voor een ander? Neem d
 <p>Heeft u het plan opgevat om bijen te gaan houden? Dan is het van belang dat u zich aanmeldt bij een plaatselijke imkersvereniging: deze staat u bij met raad en daad, en helpt u vaak aan uw eerste volkje. Als lid van een plaatselijke afdeling bent u tevens lid van de NVB, en ontvangt u een maandblad. Bovendien is het goed een cursus te volgen voor beginnend of gevorderd imker. Wie een cursus voor beginners heeft gevolgd is in staat zelfstandig en met succes bijen te houden.</p>
 </div>
   </div>
-</div>
-
-
-@endsection
-
-@section('scripts')
-    <script>
-
-    </script>
-@endsection
+</div> -->

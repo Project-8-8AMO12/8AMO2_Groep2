@@ -1,3 +1,6 @@
+<?php
+use \App\Http\Controllers\ItemsController;
+?>
 @extends('app')
 
 @section('title', "Activiteiten")
@@ -19,7 +22,8 @@
 
 @section('content')
 
-<div class="columns box is-centered is-fullwidth ">
+<?php echo ItemsController::showItemById(9)->text; ?>
+<!-- <div class="columns box is-centered is-fullwidth ">
   <div class="column is-half">
   <img class='has-background-grey-lighter imgAc'src="{{ url('/img/activiteiten.jpg') }}"/>
   <h1 class="koninginneteelt">Koninginneteelt</h1>
@@ -33,7 +37,7 @@ De kosten die hiermee gemoeid zijn worden omgeslagen over het aantal moeren waar
 
 
   </div>
-</div>
+</div> -->
 
 
 @endsection

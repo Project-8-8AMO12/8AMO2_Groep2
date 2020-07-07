@@ -1,3 +1,6 @@
+<?php
+use \App\Http\Controllers\ItemsController;
+?>
 @extends('app')
 
 @section('title', "De imker vereniging van Leiden en omstreken!")
@@ -14,7 +17,8 @@
 
 @section('content')
 
-<section id="text-header" class="container w-75">
+<?php echo ItemsController::showItemById(6)->text; ?>
+<!-- <section id="text-header" class="container w-75">
     <div class="tile is-ancestor">
         <div class="tile is-parent is-vertical has-fixed-size">
             <div class="tile is-child box">
@@ -31,7 +35,7 @@
         </div>
         <div class="tile is-parent">
             <div class="tile is-child box">
-                <a class="twitter-timeline" data-height="500" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="twitter-timeline" data-height="500" href="https://twitter.com/https://twitter.com/gemeenteleiden?lang=en">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>
@@ -72,7 +76,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 @endsection
 

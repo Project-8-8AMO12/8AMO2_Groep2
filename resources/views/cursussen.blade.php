@@ -1,3 +1,6 @@
+<?php
+use \App\Http\Controllers\ItemsController;
+?>
 @extends('app')
 
 @section('title', "Cursussen")
@@ -42,7 +45,8 @@
 
 @section('content')
 
-<div class="columns box is-centered is-fullwidth ">
+<?php echo ItemsController::showItemById(7)->text; ?>
+<!-- <div class="columns box is-centered is-fullwidth ">
   <div class="column is-half">
   <h1 class="title1">Basiscursus bijenteelt 2020</h1>
   <img class="image px-3" src="{{ url('/img/cursussen.jpg') }}"/> 
@@ -76,7 +80,7 @@ Theorie en Praktijk Lesboeken “Basis Cursus Compleet” van de NBV</br>
 het Handboek Praktijk “Bijenhouden Zo doe je dat” van de NBV</br>
 De daaraan verbonden, additionele kosten bedragen circa € 120. Deze zaken zullen worden besproken op de eerste bijeenkomst en kunnen via de vereniging gekocht worden.</p>
   </div>
-</div>
+</div> -->
 
 
 @endsection
